@@ -1,57 +1,58 @@
-# DevUtils — Roadmap
+ï»¿# DevUtils â€” Roadmap
 
-## Sprint 0 — Project Foundation ?
+## Sprint 0 â€” Project Foundation âœ…
 Establish repository structure, toolchain, CMake configuration,
 coding standards, and documentation.
 
-## Sprint 1 — Calculator
-Console-based expression evaluator.
-Concepts: parsing, operator precedence, error handling.
+## Sprint 1 â€” Calculator âœ…
+Console-based arithmetic calculator.
+Concepts: header/source separation, namespaces, input validation,
+exception handling, CMake executable targets.
 
-## Sprint 2 — Password Generator
+## Sprint 2 â€” Password Generator
 Cryptographically seeded password generator with configurable rules.
 Concepts: randomness, string manipulation, CLI flags.
 
-## Sprint 3 — JSON Formatter
+## Sprint 3 â€” JSON Formatter
 Pretty-print and validate JSON files.
 Concepts: recursive descent parsing, tree structures.
 
-## Sprint 4 — Base64 Encoder / Decoder
+## Sprint 4 â€” Base64 Encoder / Decoder
 Encode and decode Base64 strings and files.
 Concepts: bitwise operations, encoding schemes.
 
-## Sprint 5 — File Renamer
+## Sprint 5 â€” File Renamer
 Batch rename files using patterns and rules.
 Concepts: filesystem API, regex, dry-run mode.
 
-## Sprint 6 — Duplicate Finder
+## Sprint 6 â€” Duplicate Finder
 Find duplicate files by hash comparison.
 Concepts: hashing, filesystem traversal, performance.
 
-## Sprint 7 — Folder Size Analyzer
+## Sprint 7 â€” Folder Size Analyzer
 Display folder sizes ranked by consumption.
 Concepts: recursive filesystem traversal, formatting.
 
-## Sprint 8 — Log Viewer
+## Sprint 8 â€” Log Viewer
 Filter and search log files by level, date, and keyword.
 Concepts: file I/O, filtering, ANSI color output.
 
-## Sprint 9 — Clipboard History
+## Sprint 9 â€” Clipboard History
 Track and recall clipboard entries during a session.
 Concepts: platform APIs, background loops, storage.
 
-## Sprint 10 — HTTP Downloader
+## Sprint 10 â€” HTTP Downloader
 Download files over HTTP with progress reporting.
 Concepts: networking, sockets, progress display.
 
-## Sprint 11 — Port Scanner
+## Sprint 11 â€” Port Scanner
 Scan a host for open TCP ports within a range.
 Concepts: networking, concurrency, timeout handling.
 
-## Sprint 12 — Mini Git Helper
+## Sprint 12 â€” Mini Git Helper
 Summarize repository status and recent commit history.
 Concepts: process execution, output parsing.
 
-## Sprint 13 — Process Viewer
+## Sprint 13 â€” Process Viewer
 List running processes with CPU and memory usage.
 Concepts: platform APIs, sorting, tabular display.
