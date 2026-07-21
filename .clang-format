@@ -1,0 +1,49 @@
+# DevUtils — Clang Format Configuration
+# Base style: LLVM with project-specific overrides
+
+BasedOnStyle: LLVM
+
+# ----------------------------------------------
+# Indentation
+# ----------------------------------------------
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ContinuationIndentWidth: 4
+
+# ----------------------------------------------
+# Braces
+# ----------------------------------------------
+BreakBeforeBraces: Attach
+
+# ----------------------------------------------
+# Column limit
+# ----------------------------------------------
+ColumnLimit: 100
+
+# ----------------------------------------------
+# Include ordering
+# ----------------------------------------------
+SortIncludes: CaseSensitive
+IncludeBlocks: Regroup
+
+# ----------------------------------------------
+# Spacing
+# ----------------------------------------------
+SpaceAfterCStyleCast: false
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# ----------------------------------------------
+# Alignment
+# ----------------------------------------------
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignTrailingComments: true
+
+# ----------------------------------------------
+# Pointers and references
+# ----------------------------------------------
+PointerAlignment: Left
+ReferenceAlignment: Left
