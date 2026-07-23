@@ -47,7 +47,7 @@ message(STATUS "Build    : ${CMAKE_BUILD_TYPE}")
 # (uncomment each as its sprint is completed)
 # ──────────────────────────────────────────────
 add_subdirectory(apps/Calculator)
-# add_subdirectory(apps/PasswordGenerator)
+add_subdirectory(apps/PasswordGenerator)
 # add_subdirectory(apps/JSONFormatter)
 # add_subdirectory(apps/Base64Encoder)
 # add_subdirectory(apps/FileRenamer)
